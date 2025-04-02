@@ -1,0 +1,111 @@
+.footer {
+    background-color: var(--black-color);
+    padding: 100px 0 20px 0;
+    border-top: 5px solid var(--box-color);
+
+    p {
+        padding-bottom: 20px;
+        margin-top: -40px;
+
+        > a {
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 1.2;
+            color: var(--text-color);
+        }
+    }
+
+    .group-icon {
+        display: flex;
+        gap: 10px;
+
+        .icon {
+            font-size: 3rem;
+        }
+    }
+}
+
+.footer-list {
+    li,
+    a {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.2;
+        color: var(--text-color);
+
+        &:hover {
+            color: var(--white-color);
+        }
+    }
+
+    li {
+        padding: 10px 0;
+    }
+}
+
+.footer-desc {
+    padding-top: 90px;
+    p {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.2;
+        color: var(--text-color);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .footer {
+        background-color: var(--black-color);
+        padding: 100px 0 20px 40px;
+        border-top: 5px solid var(--box-color);
+
+        p {
+            padding-bottom: 20px;
+            margin-top: -40px;
+
+            > a {
+                font-size: 1.5rem;
+                font-weight: 400;
+                line-height: 1.2;
+                color: var(--text-color);
+            }
+        }
+
+        .group-icon {
+            display: flex;
+            gap: 10px;
+
+            .icon {
+                font-size: 3rem;
+            }
+        }
+    }
+
+    .footer-list {
+        li,
+        a {
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 1.2;
+            color: var(--text-color);
+
+            &:hover {
+                color: var(--white-color);
+            }
+        }
+
+        li {
+            padding: 10px 0;
+        }
+    }
+
+    .footer-desc {
+        padding-top: 90px;
+        p {
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 1.2;
+            color: var(--text-color);
+        }
+    }
+}

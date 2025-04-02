@@ -1,0 +1,16 @@
+.header {
+    padding: 20px 0;
+    background-color: var(--black-color);
+
+    .login {
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.3;
+        color: var(--button-color);
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

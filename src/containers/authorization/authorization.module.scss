@@ -1,0 +1,109 @@
+.authorization {
+    min-height: 100vh;
+    padding: 30px 0 50px 80px;
+    
+    h3 {
+        font-size: 2.8rem;
+        font-weight: 600;
+        line-height: 2;
+        color: var(--white-color);
+        padding-bottom: 20px;
+    }
+}
+
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+        border: 1px solid var(--text-color);
+        padding: 15px 15px 15px 30px;
+        text-align: left;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1.5;
+        color: var(--white-color);
+    }
+
+    .tb-row {
+        &:hover {
+            background-color: var(--box-color);
+        }
+    }
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 20px 0;
+
+    button {
+        width: 130px;
+        min-height: 40px;
+        background-color: var(--button-color);
+        border-radius: 4px;
+        font-size: 1.7rem;
+        font-weight: 500;
+        line-height: 1.6;
+        color: var(--white-color);
+    }
+
+    .btn-lasted {
+        border: 1px solid var(--text-color);
+        background-color: transparent;
+    }
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    input {
+        width: 300px;
+        height: 45px;
+        border: 1px solid var(--text-color);
+        border-radius: 4px;
+        outline: none;
+        background-color: transparent;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.4;
+        color: var(--white-color);
+        padding-left: 15px;
+    }
+
+    button {
+        width: 100px;
+        height: 45px;
+        border: 1px solid var(--box-color);
+        border-radius: 4px;
+        outline: none;
+
+        .icon {
+            font-size: 3rem;
+            color: var(--white-color);
+        }
+
+        &:hover {
+            background-color: var(--box-color);
+        }
+    }
+}
+
+.user-icon {
+    font-size: 3rem !important;
+    color: var(--white-color);
+    display: block;
+    text-align: center;
+}
+
+.is-lock-icon {
+    font-size: 4rem !important;
+    color: var(--white-color);
+    display: block;
+    text-align: center;
+    padding-left: 10px;
+}

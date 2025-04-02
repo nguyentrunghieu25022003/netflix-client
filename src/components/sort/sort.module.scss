@@ -1,0 +1,121 @@
+.tools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.btn-submit {
+    width: 150px;
+    min-height: 48px;
+    background-color: var(--button-color);
+    border: 1px solid var(--box-color);
+    border-radius: 4px;
+    outline: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--white-color);
+    &:hover {
+        background-color: #c1111a8f;
+        color: var(--text-color);
+    }
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sort {
+    width: 150px;
+    position: relative;
+
+    .sort-select {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #111319;
+        border-radius: 4px;
+        padding: 10px 0 10px 20px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1.3;
+        color: var(--white-color);
+        .icon {
+            font-size: 3rem;
+        }
+    }
+}
+
+.sort-options {
+    position: absolute;
+    z-index: 999;
+    width: 150px;
+    height: 250px;
+    overflow-y: auto;
+    background-color: #111319;
+    border-radius: 4px;
+    padding: 10px 0;
+    margin-top: 5px;
+
+    li {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.3;
+        color: var(--white-color);
+        padding: 5px 0 5px 20px;
+        &:hover {
+            cursor: pointer;
+            background-color: #52525b;
+        }
+    }
+    
+}
+
+.sort-options::-webkit-scrollbar {
+    width: 10px;
+}
+
+.sort-options::-webkit-scrollbar-track {
+    background: var(--black-color);
+    border-radius: 10px;
+}
+
+.sort-options::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+    &:hover {
+        background: #555;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sort {
+        width: 80px;
+
+        .sort-select {
+            strong {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .btn-submit {
+        width: 70px;
+    }
+
+    .sort {
+        width: 70px;
+
+        .sort-select {
+            strong {
+                display: none;
+            }
+        }
+    }
+}

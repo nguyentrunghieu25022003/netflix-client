@@ -1,0 +1,26 @@
+.header {
+  padding: 20px 0;
+
+  a {
+    display: flex;
+    align-items: center;
+    color: #000;
+
+    &:hover {
+      text-decoration: none;
+      opacity: 0.8;
+    }
+  }
+
+  .button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--btn-bg-color);
+    color: var(--white-color);
+
+    &:hover {
+      background-color: var(--btn-hover-bg-color);
+    }
+  }
+}

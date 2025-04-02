@@ -1,0 +1,24 @@
+.header {
+    background-color: var(--black-color);
+    min-height: 50px;
+    padding: 10px 0;
+
+    h2 {
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 1.6;
+        color: var(--button-color);
+    }
+
+    .log-out {
+        font-size: 1.9rem;
+        font-weight: 500;
+        line-height: 1.4;
+        color: var(--button-color);
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}

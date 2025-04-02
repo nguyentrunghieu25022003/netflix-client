@@ -1,0 +1,12 @@
+.loading {
+    background-color: var(--black-color);
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 120px;
+    }
+}

@@ -1,0 +1,170 @@
+.profile {
+    background-color: var(--black-color);
+    min-height: 800px;
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 1.5;
+        color: var(--white-color);
+        padding: 30px 0;
+    }
+}
+
+.profile-img {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    > img {
+        border-radius: 4px;
+    }
+
+    strong {
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.4;
+        color: var(--text-color);
+    }
+}
+
+.classify {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+        width: 50px;
+    }
+}
+
+.profile-inf {
+    padding-top: 20px;
+
+    .profile-text {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 20px 0;
+
+        input {
+            min-width: 370px;
+            height: 40px;
+            display: block;
+            font-size: 1.7rem;
+            font-weight: 500;
+            line-height: 1.3;
+            color: var(--text-color);
+            background-color: transparent;
+            border: 1px solid var(--white-color);
+            border-radius: 4px;
+            padding-left: 15px;
+        }
+    }
+
+    .icon {
+        font-size: 3rem;
+        color: var(--white-color);
+    }
+}
+
+.btn-save-profile {
+    background-color: var(--button-color);
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--white-color);
+}
+
+.btn-save {
+    background-color: var(--button-color);
+    border: none;
+    outline: none;
+    width: 177px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--white-color);
+}
+
+.btn-cancel {
+    background-color: var(--box-color);
+    border: none;
+    outline: none;
+    width: 177px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--white-color);
+}
+
+.dragon-fly img {
+    position: relative;
+    left: 82%;
+    width: 30%;
+    height: 70%;
+    animation: fly 6s infinite;
+}
+
+@keyframes fly {
+    0% {
+        left: 100px;
+        top: 5px;
+    }
+
+    25% {
+        left: 150px;
+    }
+
+    50% {
+        left: 30px;
+    }
+
+    75% {
+        left: 25px;
+    }
+
+    100% {
+        right: -100px;
+        top: 105px;
+    }
+}
+
+.profile-status {
+    display: block;
+    padding: 5px 0;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--text-color);
+
+    button {
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        padding: 5px 8px;
+        background-color: rgba(0, 128, 0, 0.834);
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.4;
+        color: var(--white-color);
+    }
+}
+
+.profile-create-at {
+    display: block;
+    padding: 5px 0;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--text-color);
+}
