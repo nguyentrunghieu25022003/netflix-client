@@ -492,7 +492,7 @@ const Header = () => {
                 >
                   <div className={cx("user-account")}>
                     <LazyLoadImage
-                      src={`${import.meta.env.VITE_SERVER_URL}${avatarUrl}`}
+                      src={`https://netflix-server-q8gw.onrender.com${avatarUrl}`}
                       className={cx("avatar")}
                       alt="avatar"
                       effect="blur"
