@@ -492,7 +492,7 @@ const Header = () => {
                 >
                   <div className={cx("user-account")}>
                     <LazyLoadImage
-                      src={`https://netflix-server-q8gw.onrender.com${avatarUrl}`}
+                      src={`https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg`}
                       className={cx("avatar")}
                       alt="avatar"
                       effect="blur"
